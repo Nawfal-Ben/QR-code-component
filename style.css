@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+}
+main {
+    width: 320px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.text {
+    padding: 10px;
+}
+p {
+    color: hsl(220, 15%, 55%);
+}
